@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethodExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethod2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethodExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethodExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
