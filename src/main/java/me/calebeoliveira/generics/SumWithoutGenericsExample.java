@@ -1,0 +1,18 @@
+package me.calebeoliveira.generics;
+
+public class SumWithoutGenericsExample {
+    private static void add(int num1, int num2) {
+        int result = num1 + num2;
+        System.out.println("Result is: " + result);
+    }
+
+    // method overloading
+    private static void add(double num1, double num2) {
+        double result = num1 + num2;
+        System.out.println("Result is: " + result);
+    }
+
+    public static void main(String[] args) {
+        add(10.4, 5.3);
+    }
+}
