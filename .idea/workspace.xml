@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/typeinference/Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/typeinference/BucketExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/typeinference/TypeInferenceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,17 +35,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BoundedTypeExample.executor": "Run",
+    "Application.BucketExample.executor": "Run",
     "Application.GenericMethodExample.executor": "Run",
     "Application.HashTableEx.executor": "Debug",
     "Application.SumExample.executor": "Run",
     "Application.TypeEx.executor": "Run",
+    "Application.TypeInferenceExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BucketExample">
+  <component name="RunManager" selected="Application.TypeInferenceExample">
     <configuration name="BoundedTypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.boundedtypes.BoundedTypeExample" />
       <module name="generics-collections-and-reflection-example" />
@@ -99,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypesEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.types.TypesEx" />
+    <configuration name="TypeInferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.typeinference.TypeInferenceExample" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.generics.types.*" />
+          <option name="PATTERN" value="me.calebeoliveira.generics.typeinference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeInferenceExample" />
         <item itemvalue="Application.BucketExample" />
         <item itemvalue="Application.BoundedTypeExample" />
         <item itemvalue="Application.GenericMethodExample" />
         <item itemvalue="Application.HashTableEx" />
-        <item itemvalue="Application.TypesEx" />
       </list>
     </recent_temporary>
   </component>
