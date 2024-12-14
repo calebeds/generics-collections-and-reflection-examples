@@ -48,8 +48,12 @@ public class BoundedTypeExample {
         return num2;
     }
 
+    private static <T extends Number> double add(T num1, T num2) {
+        return num1.doubleValue() + num2.doubleValue();
+    }
+
     public static void main(String[] args) {
-        Integer a = null;
-        System.out.println(calculateMin(new Person(92, "Adam"), new Person(78, "Kevin")));
+//        System.out.println(calculateMin(new Person(92, "Adam"), new Person(78, "Kevin")));
+        System.out.println(add(10, 30f));
     }
 }
