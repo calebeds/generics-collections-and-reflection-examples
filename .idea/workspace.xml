@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/boundedtypes/BoundedTypeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/boundedtypes/BoundedTypeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/typeinference/Bucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/typeinference/BucketExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +46,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BoundedTypeExample">
+  <component name="RunManager" selected="Application.BucketExample">
     <configuration name="BoundedTypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.boundedtypes.BoundedTypeExample" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.calebeoliveira.generics.boundedtypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BucketExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.typeinference.BucketExample" />
+      <module name="generics-collections-and-reflection-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.calebeoliveira.generics.typeinference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumWithoutGenericsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.SumWithoutGenericsExample" />
-      <module name="generics-collections-and-reflection-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TypesEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.types.TypesEx" />
       <module name="generics-collections-and-reflection-example" />
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BucketExample" />
         <item itemvalue="Application.BoundedTypeExample" />
         <item itemvalue="Application.GenericMethodExample" />
         <item itemvalue="Application.HashTableEx" />
         <item itemvalue="Application.TypesEx" />
-        <item itemvalue="Application.SumWithoutGenericsExample" />
       </list>
     </recent_temporary>
   </component>
