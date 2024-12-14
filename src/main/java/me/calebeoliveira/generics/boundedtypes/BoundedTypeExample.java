@@ -52,6 +52,16 @@ public class BoundedTypeExample {
         return num1.doubleValue() + num2.doubleValue();
     }
 
+    public <T extends Comparable<T>> int countGreaterItems(T[] items, T item) {
+        int count = 0;
+        for(T t: items) {
+            if(t.compareTo(item) > 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
 //        System.out.println(calculateMin(new Person(92, "Adam"), new Person(78, "Kevin")));
         System.out.println(add(10, 30f));
