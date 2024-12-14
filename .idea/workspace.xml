@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethod2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethodExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/methods/GenericMethodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/boundedtypes/BoundedTypeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BoundedTypeExample.executor": "Run",
     "Application.GenericMethodExample.executor": "Run",
     "Application.HashTableEx.executor": "Debug",
     "Application.SumExample.executor": "Run",
@@ -45,7 +45,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GenericMethodExample">
+  <component name="RunManager" selected="Application.BoundedTypeExample">
+    <configuration name="BoundedTypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.boundedtypes.BoundedTypeExample" />
+      <module name="generics-collections-and-reflection-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.calebeoliveira.generics.boundedtypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericMethodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.methods.GenericMethodExample" />
       <module name="generics-collections-and-reflection-example" />
@@ -100,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoundedTypeExample" />
         <item itemvalue="Application.GenericMethodExample" />
         <item itemvalue="Application.HashTableEx" />
         <item itemvalue="Application.TypesEx" />
@@ -117,5 +131,16 @@
       <updated>1734200919402</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk-11.0.2/lib/src.zip!/java.base/java/lang/Number.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
