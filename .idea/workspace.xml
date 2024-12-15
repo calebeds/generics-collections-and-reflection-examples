@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/wildcards/upperboundedwildcard/UpperBoundedWildCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/wildcards/lowerboundedwildcard/LowerBoundedWildcard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
     "Application.TypeEx.executor": "Run",
     "Application.TypeInferenceExample.executor": "Run",
     "Application.UnboundedWildcards.executor": "Run",
+    "Application.UpperBoundedWildCard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -54,13 +55,13 @@
       <recent name="me.calebeoliveira.generics.wildcards" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UpperBoundedWildCard">
-    <configuration name="BoundedTypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.boundedtypes.BoundedTypeExample" />
+  <component name="RunManager" selected="Application.LowerBoundedWildcard">
+    <configuration name="BucketExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.typeinference.BucketExample" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.generics.boundedtypes.*" />
+          <option name="PATTERN" value="me.calebeoliveira.generics.typeinference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BucketExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.typeinference.BucketExample" />
+    <configuration name="LowerBoundedWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.wildcards.lowerboundedwildcard.LowerBoundedWildcard" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.generics.typeinference.*" />
+          <option name="PATTERN" value="me.calebeoliveira.generics.wildcards.lowerboundedwildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LowerBoundedWildcard" />
         <item itemvalue="Application.UpperBoundedWildCard" />
         <item itemvalue="Application.UnboundedWildcards" />
         <item itemvalue="Application.TypeInferenceExample" />
         <item itemvalue="Application.BucketExample" />
-        <item itemvalue="Application.BoundedTypeExample" />
       </list>
     </recent_temporary>
   </component>
