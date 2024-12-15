@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/mockalgorithmsexample/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/mockalgorithmsexample/AlgorithmsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/mockalgorithmsexample/GraphAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/mockalgorithmsexample/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/mockalgorithmsexample/SearchAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/mockalgorithmsexample/SortingAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/wildcards/CopyArraysWildcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/generics/wildcards/CopyArraysWildcard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,7 @@
   "keyToString": {
     "Application.BoundedTypeExample.executor": "Run",
     "Application.BucketExample.executor": "Run",
+    "Application.CopyArraysWildcard.executor": "Run",
     "Application.GenericMethodExample.executor": "Run",
     "Application.HashTableEx.executor": "Debug",
     "Application.LowerBoundedWildcard.executor": "Run",
@@ -52,11 +58,28 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.calebeoliveira.generics.mockalgorithmsexample" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.calebeoliveira.generics.mockalgorithmsexample" />
       <recent name="me.calebeoliveira.generics.wildcards" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyArraysWildcard">
+  <component name="RunManager" selected="Application.AlgorithmsExample">
+    <configuration name="AlgorithmsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.mockalgorithmsexample.AlgorithmsExample" />
+      <module name="generics-collections-and-reflection-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.calebeoliveira.generics.mockalgorithmsexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CopyArraysWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.wildcards.CopyArraysWildcard" />
       <module name="generics-collections-and-reflection-example" />
@@ -76,19 +99,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.calebeoliveira.generics.wildcards.lowerboundedwildcard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypeInferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.generics.typeinference.TypeInferenceExample" />
-      <module name="generics-collections-and-reflection-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.generics.typeinference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlgorithmsExample" />
         <item itemvalue="Application.CopyArraysWildcard" />
         <item itemvalue="Application.LowerBoundedWildcard" />
         <item itemvalue="Application.UpperBoundedWildCard" />
         <item itemvalue="Application.UnboundedWildcards" />
-        <item itemvalue="Application.TypeInferenceExample" />
       </list>
     </recent_temporary>
   </component>
