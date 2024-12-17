@@ -69,7 +69,7 @@
       <recent name="me.calebeoliveira.generics.wildcards" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayDequeExample">
+  <component name="RunManager" selected="Application.ArrayDequeVsStack">
     <configuration name="ArrayDequeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.queue.ArrayDequeExample" />
       <module name="generics-collections-and-reflection-example" />
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListVsLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.list.ArrayListVsLinkedList" />
+    <configuration name="ArrayDequeVsStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.queue.ArrayDequeVsStack" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.collections.list.*" />
+          <option name="PATTERN" value="me.calebeoliveira.collections.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDequeVsStack" />
         <item itemvalue="Application.ArrayDequeExample" />
         <item itemvalue="Application.PriorityQueueExample" />
         <item itemvalue="Application.QueueExample" />
         <item itemvalue="Application.StackExample" />
-        <item itemvalue="Application.ArrayListVsLinkedList" />
       </list>
     </recent_temporary>
   </component>
