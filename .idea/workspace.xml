@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/map/HashCodeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/map/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/map/LinkedHashMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +46,7 @@
     "Application.GenericMethodExample.executor": "Run",
     "Application.HashMapExample.executor": "Run",
     "Application.HashTableEx.executor": "Debug",
+    "Application.LinkedHashMap.executor": "Run",
     "Application.LinkedListExample.executor": "Run",
     "Application.LowerBoundedWildcard.executor": "Run",
     "Application.PriorityQueueExample.executor": "Run",
@@ -72,7 +72,7 @@
       <recent name="me.calebeoliveira.generics.wildcards" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapExample">
+  <component name="RunManager" selected="Application.LinkedHashMapExample">
     <configuration name="ArrayDequeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.queue.ArrayDequeExample" />
       <module name="generics-collections-and-reflection-example" />
@@ -112,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedHashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.map.LinkedHashMapExample" />
+      <module name="generics-collections-and-reflection-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.calebeoliveira.collections.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.queue.PriorityQueueExample" />
       <module name="generics-collections-and-reflection-example" />
@@ -125,26 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.queue.QueueExample" />
-      <module name="generics-collections-and-reflection-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.collections.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedHashMapExample" />
         <item itemvalue="Application.HashMapExample" />
         <item itemvalue="Application.ArrayDequeVsStack" />
         <item itemvalue="Application.ArrayDequeExample" />
         <item itemvalue="Application.PriorityQueueExample" />
-        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +166,11 @@
           <url>jar://$PROJECT_DIR$/../../jdk-11.0.2/lib/src.zip!/java.base/java/lang/Number.java</url>
           <line>98</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/map/LinkedHashMapExample.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
