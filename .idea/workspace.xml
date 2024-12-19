@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/comparableinterface/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/comparableinterface/ComparableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/comparator/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/comparator/BookComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/comparator/ComparatorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,7 @@
     "Application.BoundedTypeExample.executor": "Run",
     "Application.BucketExample.executor": "Run",
     "Application.ComparableExample.executor": "Run",
+    "Application.ComparatorExample.executor": "Run",
     "Application.CopyArraysWildcard.executor": "Run",
     "Application.GenericMethodExample.executor": "Run",
     "Application.HashMapExample.executor": "Run",
@@ -79,11 +81,12 @@
       <recent name="me.calebeoliveira.generics.mockalgorithmsexample" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.calebeoliveira.collections.comparator" />
       <recent name="me.calebeoliveira.generics.mockalgorithmsexample" />
       <recent name="me.calebeoliveira.generics.wildcards" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComparableExample">
+  <component name="RunManager" selected="Application.ComparatorExample">
     <configuration name="ComparableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.comparableinterface.ComparableExample" />
       <module name="generics-collections-and-reflection-example" />
@@ -97,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedHashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.set.LinkedHashSetExample" />
+    <configuration name="ComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.comparator.ComparatorExample" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.collections.set.*" />
+          <option name="PATTERN" value="me.calebeoliveira.collections.comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorExample" />
         <item itemvalue="Application.ComparableExample" />
         <item itemvalue="Application.SortingCollections" />
         <item itemvalue="Application.SortingArrays" />
         <item itemvalue="Application.TreeSetExample" />
-        <item itemvalue="Application.LinkedHashSetExample" />
       </list>
     </recent_temporary>
   </component>
