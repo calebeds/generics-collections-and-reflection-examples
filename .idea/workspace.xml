@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/UnmodifiableCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/synchronizedcollections/SynchronizedCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     "Application.SortingWithLambda.executor": "Run",
     "Application.StackExample.executor": "Run",
     "Application.SumExample.executor": "Run",
+    "Application.SynchronizedCollections.executor": "Run",
     "Application.TreeSetExample.executor": "Run",
     "Application.Treemap.executor": "Run",
     "Application.TreemapExample.executor": "Run",
@@ -87,26 +88,13 @@
       <recent name="me.calebeoliveira.generics.wildcards" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnmodifiableCollections">
+  <component name="RunManager" selected="Application.SynchronizedCollections">
     <configuration name="CollectionClassMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.CollectionClassMethods" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.calebeoliveira.collections.unmodifiablecollection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComparableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.comparableinterface.ComparableExample" />
-      <module name="generics-collections-and-reflection-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.collections.comparableinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SynchronizedCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.synchronizedcollections.SynchronizedCollections" />
+      <module name="generics-collections-and-reflection-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.calebeoliveira.collections.synchronizedcollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnmodifiableCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.unmodifiablecollection.UnmodifiableCollections" />
       <module name="generics-collections-and-reflection-example" />
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedCollections" />
         <item itemvalue="Application.UnmodifiableCollections" />
         <item itemvalue="Application.CollectionClassMethods" />
         <item itemvalue="Application.SortingWithLambda" />
         <item itemvalue="Application.ComparatorExample" />
-        <item itemvalue="Application.ComparableExample" />
       </list>
     </recent_temporary>
   </component>
