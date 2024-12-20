@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/comparator/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/comparator/BookComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/comparator/ComparatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/sortingwithlambda/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/sortingwithlambda/SortingWithLambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +59,7 @@
     "Application.QueueExample.executor": "Run",
     "Application.SortingArrays.executor": "Run",
     "Application.SortingCollections.executor": "Run",
+    "Application.SortingWithLambda.executor": "Run",
     "Application.StackExample.executor": "Run",
     "Application.SumExample.executor": "Run",
     "Application.TreeSetExample.executor": "Run",
@@ -86,7 +86,7 @@
       <recent name="me.calebeoliveira.generics.wildcards" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComparatorExample">
+  <component name="RunManager" selected="Application.SortingWithLambda">
     <configuration name="ComparableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.comparableinterface.ComparableExample" />
       <module name="generics-collections-and-reflection-example" />
@@ -139,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.set.TreeSetExample" />
+    <configuration name="SortingWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.sortingwithlambda.SortingWithLambda" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.collections.set.*" />
+          <option name="PATTERN" value="me.calebeoliveira.collections.sortingwithlambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingWithLambda" />
         <item itemvalue="Application.ComparatorExample" />
         <item itemvalue="Application.ComparableExample" />
         <item itemvalue="Application.SortingCollections" />
         <item itemvalue="Application.SortingArrays" />
-        <item itemvalue="Application.TreeSetExample" />
       </list>
     </recent_temporary>
   </component>
