@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da57990-d8dd-419f-848b-4209e0ba942d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/cache/Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/collections/cache/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/calebeoliveira/streams/StreamWithNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,7 @@
     "Application.ArrayListVsLinkedList.executor": "Run",
     "Application.BoundedTypeExample.executor": "Run",
     "Application.BucketExample.executor": "Run",
+    "Application.CacheExample.executor": "Run",
     "Application.CollectionClassMethods.executor": "Run",
     "Application.ComparableExample.executor": "Run",
     "Application.ComparatorExample.executor": "Run",
@@ -62,6 +62,7 @@
     "Application.SortingCollections.executor": "Run",
     "Application.SortingWithLambda.executor": "Run",
     "Application.StackExample.executor": "Run",
+    "Application.StreamWithNumbers.executor": "Run",
     "Application.SumExample.executor": "Run",
     "Application.SynchronizedCollections.executor": "Run",
     "Application.TreeSetExample.executor": "Run",
@@ -89,7 +90,7 @@
       <recent name="me.calebeoliveira.generics.wildcards" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CacheExample">
+  <component name="RunManager" selected="Application.StreamWithNumbers">
     <configuration name="CacheExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.cache.CacheExample" />
       <module name="generics-collections-and-reflection-example" />
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.collections.sortingwithlambda.SortingWithLambda" />
+    <configuration name="StreamWithNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.calebeoliveira.streams.StreamWithNumbers" />
       <module name="generics-collections-and-reflection-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.calebeoliveira.collections.sortingwithlambda.*" />
+          <option name="PATTERN" value="me.calebeoliveira.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamWithNumbers" />
         <item itemvalue="Application.CacheExample" />
         <item itemvalue="Application.SynchronizedCollections" />
         <item itemvalue="Application.UnmodifiableCollections" />
         <item itemvalue="Application.CollectionClassMethods" />
-        <item itemvalue="Application.SortingWithLambda" />
       </list>
     </recent_temporary>
   </component>
